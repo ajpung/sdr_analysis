@@ -1,0 +1,65 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rats"
+requires-python = ">=3.10, <=3.12"
+authors = [
+    {name = "Aaron Pung", email = "a.pung@slingshotaerospace.com"},
+    {name = "Alex Post", email = "a.post@slingshotaerospace.com"},
+]
+description = "Radiation And Trajectory Simulator"
+readme = "README.md"
+dependencies = [
+    "itur==0.4.0",
+    "meshlib==2.2.11.51",
+    "numpy",
+    "pandas",
+    "plotly==5.18.0",
+    "pydantic==2.4.2",
+    "pydantic_core==2.10.1",
+    "PyNEC==1.7.3.4",
+    "weasyprint"
+]
+dynamic = ["version"]
+
+[tool.setuptools.package-data]
+rats = ["py.typed"]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "black",
+    "mypy",
+    "kaleido"
+]
+docs = [
+    "sphinx",
+    "sphinx_rtd_theme",
+    "myst_parser",
+    "autodoc_pydantic",
+    "furo",
+]
+
+[tool.mypy]
+python_version = "3.10"
+warn_return_any = true
+warn_unused_configs = true
+ignore_missing_imports = true
+plugins = "numpy.typing.mypy_plugin"
+
+
+[[tool.mypy.overrides]]
+module = [
+    "astropy.*",
+]
+ignore_missing_imports = true
+
+[tool.setuptools_scm]
+
+[tool.semantic_release]
+version_toml = [
+    "pyproject.toml:version",
+]
+tag_format = "{version}"

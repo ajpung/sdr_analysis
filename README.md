@@ -1,2 +1,36 @@
-# sdr_analysis
-Analysis and streaming software for SDR radio
+# RATS
+Radiation and Trajectory Simulator
+
+# Introduction
+RATS is used to create a digital twin of the radio frequency (RF) environment
+between terrestrial- and space-based assets. Each asset is assumed to have one
+stationary antenna.
+
+Notes and commands used to contribute are contained in the documentation.
+
+# Before running
+Ensure your Python path is set to the local repository's source directory using:
+`export PYTHONPATH=<path to repo>/src:$PYTHONPATH`.
+
+# Documentation
+Initially, documentation can be read from within the repository's `docs` folder,
+found in: `<repository>/docs/build/index.html`. If `index.html` does not exist
+yet, use the following two commands then try locating the `index.html` file.
+
+```
+python -m pip install ".[docs]" 
+sphinx-build docs/source docs/build
+```
+
+
+# Installation
+
+```
+python -m pip install --upgrade pip setuptools wheel numpy
+python -m pip install .[dev]
+```
+
+
+
+# Running the library
+(Needs completion)

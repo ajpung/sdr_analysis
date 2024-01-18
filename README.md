@@ -1,10 +1,8 @@
-# RATS
-Radiation and Trajectory Simulator
+# SDR Analysis Tool
+A software-defined radio (SDR) analysis tool.
 
 # Introduction
-RATS is used to create a digital twin of the radio frequency (RF) environment
-between terrestrial- and space-based assets. Each asset is assumed to have one
-stationary antenna.
+Working in conjunction with an antenna, SDRs are used to monitor and capture radio frequency (RF) signals captured by the antenna and turn them into a more user-friendly and analyzable data source.
 
 Notes and commands used to contribute are contained in the documentation.
 
@@ -24,13 +22,10 @@ sphinx-build docs/source docs/build
 
 
 # Installation
-
 ```
 python -m pip install --upgrade pip setuptools wheel numpy
 python -m pip install .[dev]
 ```
 
-
-
-# Running the library
+# Running the tool
 (Needs completion)

@@ -17,9 +17,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = "RATS"
-copyright = "2023, Aaron Pung, Alex Post"
-author = "Aaron Pung, Alex Post"
+project = "TADA"
+copyright = "2024, Aaron Pung"
+author = "Aaron Pung"
 
 # The full version, including alpha/beta/rc tags
 release = "1.0.0"
@@ -43,7 +43,7 @@ exclude_patterns = []
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
-html_logo = "rats_logo.png"
+html_logo = "tada_logo.png"
 html_theme = "furo"
 html_theme_options = {
     "logo_only": False,

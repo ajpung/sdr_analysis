@@ -6,26 +6,21 @@ build-backend = "setuptools.build_meta"
 name = "rats"
 requires-python = ">=3.10, <=3.12"
 authors = [
-    {name = "Aaron Pung", email = "a.pung@slingshotaerospace.com"},
-    {name = "Alex Post", email = "a.post@slingshotaerospace.com"},
+    {name = "Aaron Pung", email = "aaron.pung@gmail.com"},
 ]
-description = "Radiation And Trajectory Simulator"
+description = "Tool for Antenna Data Analysis"
 readme = "README.md"
 dependencies = [
-    "itur==0.4.0",
-    "meshlib==2.2.11.51",
     "numpy",
     "pandas",
     "plotly==5.18.0",
     "pydantic==2.4.2",
     "pydantic_core==2.10.1",
-    "PyNEC==1.7.3.4",
-    "weasyprint"
 ]
 dynamic = ["version"]
 
 [tool.setuptools.package-data]
-rats = ["py.typed"]
+tada = ["py.typed"]
 
 [project.optional-dependencies]
 dev = [

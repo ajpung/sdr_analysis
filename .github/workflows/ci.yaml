@@ -1,4 +1,4 @@
-name: RATS CI
+name: TADA CI
 
 on:
   pull_request:

@@ -4,6 +4,7 @@ from typing import overload, Union
 from tada.physics.constants import SPEED_OF_LIGHT
 
 
+'''
 @overload
 def freq_to_wvln(freq: float) -> float:
     ...
@@ -71,3 +72,4 @@ def db_to_decimal(db: Union[float, np.ndarray]) -> Union[float, np.ndarray]:
     """
     dm = 10 ** (db / 10) - 1
     return dm
+'''

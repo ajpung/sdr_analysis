@@ -13,23 +13,24 @@ from typing import Tuple
 import numpy as np
 
 import plotly.graph_objs as go
-from meshlib import mrmeshnumpy as mn
-from meshlib.mrmeshpy import Mesh
-from meshlib import mrmeshpy as mm
 
-from rats.utils.coordinates import ecef_to_lla
+# from meshlib import mrmeshnumpy as mn
+# from meshlib.mrmeshpy import Mesh
+# from meshlib import mrmeshpy as mm
 
-
-@dataclass
-class DataMesh:
-    x: float
-    y: float
-    z: float
-    faces: float
-    verts: float
-    mesh: Mesh
+# from rats.utils.coordinates import ecef_to_lla
 
 
+# @dataclass
+# class DataMesh:
+#    x: float
+#    y: float
+#    z: float
+#    faces: float
+#   verts: float
+#    mesh: Mesh
+
+'''
 # ============================= General mesh tools =============================
 # Offset mesh from origin
 def offset_from_origin(mesh: Mesh, offset: np.ndarray, mag: float) -> Mesh:
@@ -187,3 +188,4 @@ def sph2xyz(
         x=x_comp, y=y_comp, z=z_comp, faces=gain_face, verts=gain_vert, mesh=gain_mesh
     )
     return xyz_gain
+'''

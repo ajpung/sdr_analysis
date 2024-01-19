@@ -6,6 +6,7 @@ from pydantic import BaseModel
 from pydantic_core import core_schema
 
 
+"""
 class PolymorphicBaseModel(BaseModel):
     __polymorphic__ = False
     _subtypes: Dict[str, Type[BaseModel]] = dict()
@@ -68,3 +69,4 @@ class PolymorphicBaseModel(BaseModel):
                     f" to {cls._subtypes[type]}"
                 )
             cls._subtypes[type] = cls
+"""

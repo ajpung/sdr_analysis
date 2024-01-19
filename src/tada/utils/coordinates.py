@@ -1,9 +1,10 @@
 import math
 import numpy as np
 
-from rats.physics.constants import EQ_RADIUS_M, EARTH_ECCEN, POLAR_RADIUS_M
+# from rats.physics.constants import EQ_RADIUS_M, EARTH_ECCEN, POLAR_RADIUS_M
 
 
+'''
 def lla_to_ecef(lla: np.ndarray, deg: bool = False) -> np.ndarray:
     """
     Uses the algorithm provided in "Understanding GPS Principles and Applications,
@@ -97,3 +98,4 @@ def ecef_to_lla(ecef: np.ndarray, deg: bool = False) -> np.ndarray:
     else:
         lla = np.array([theta, clambda, h])
     return lla
+'''

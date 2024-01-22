@@ -2,6 +2,43 @@
 
 
 
+## 1.2.0 (2024-01-22)
+
+### Chore
+
+* chore: separating HW and SW tests ([`2e8f420`](https://github.com/ajpung/sdr_analysis/commit/2e8f4208c7a417b8d241be423398f0d64a1ff05a))
+
+* chore: separating HW and SW tests ([`24e91e7`](https://github.com/ajpung/sdr_analysis/commit/24e91e714fcd6ba57d543cb720d14011b7b4c034))
+
+* chore: separated HW and SW tests, giving the user both capabilities while avoiding Git testing errors ([`5ca0ca4`](https://github.com/ajpung/sdr_analysis/commit/5ca0ca4dbc201cd56debe7a71fe6377fbf1f2020))
+
+* chore: Trying fixes for the RTLSDR package ([`c15d04c`](https://github.com/ajpung/sdr_analysis/commit/c15d04cb0582f751a27c9c93e8be8de49b2aa4f5))
+
+* chore: Trying fixes for the RTLSDR package ([`63b4093`](https://github.com/ajpung/sdr_analysis/commit/63b40936ab904b6626359e40073868334c7eb07c))
+
+* chore: Trying fixes for the RTLSDR package ([`9ab47a0`](https://github.com/ajpung/sdr_analysis/commit/9ab47a00d77c4d4b2f85054ce9b3780a7ea2c40b))
+
+* chore: modifying dependencies to pass GitHub tests ([`a0fc6bd`](https://github.com/ajpung/sdr_analysis/commit/a0fc6bd43ab2bd72a066942820e60e8de2b39224))
+
+* chore: fixing pyrtlsdr install ([`34ebb65`](https://github.com/ajpung/sdr_analysis/commit/34ebb6568ec11e50d618af895417d297bac03e91))
+
+* chore: cleaning up files, folders, tests, and documentation ([`ceac5f8`](https://github.com/ajpung/sdr_analysis/commit/ceac5f83a4227af513ae919d379d28fb5a1cf20e))
+
+### Feature
+
+* feat: hardware now ready by software, unit tests added for robustness. ([`b8870bd`](https://github.com/ajpung/sdr_analysis/commit/b8870bd01d5b18f583bdd67d321206fa182ec74d))
+
+### Unknown
+
+* Merge pull request #9 from ajpung/test-hardware
+
+feat: hardware now ready by software, unit tests added for robustness. ([`a7e627a`](https://github.com/ajpung/sdr_analysis/commit/a7e627a2ce8f0a41d6a679f4179f6002bd121675))
+
+* Merge pull request #8 from ajpung/update-docs
+
+chore: cleaning up files, folders, tests, and documentation ([`c59190f`](https://github.com/ajpung/sdr_analysis/commit/c59190f5396b1dfb027ed1e4e545aebc30e9de10))
+
+
 ## 1.1.0 (2024-01-19)
 
 ### Chore

@@ -4,7 +4,7 @@ on:
   pull_request:
     paths:
       - src/**
-      - tests/**
+      - tests/sw_tests/**
       - .github/workflows/ci.yaml
       - pyproject.toml
 
@@ -82,4 +82,4 @@ jobs:
 
       - name: Run Tests
         run: |
-          python -m pytest tests
+          python -m pytest tests/sw_tests/**

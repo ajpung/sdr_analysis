@@ -1,5 +1,5 @@
 # TADA
-A tool for antenna data analysis
+A tool for antenna data analysis.
 
 # Introduction
 Working in conjunction with an antenna, SDRs are used to monitor and capture radio frequency (RF) signals captured by the antenna and turn them into a more user-friendly and analyzable data source. The script relies on miniconda3.

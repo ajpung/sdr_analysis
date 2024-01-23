@@ -46,7 +46,6 @@ Installation
 
    modules/analysis
    modules/data
-   modules/physics
    modules/utils
 
 

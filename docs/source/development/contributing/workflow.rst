@@ -74,7 +74,7 @@ RATS library. To run the tests properly, the Python path needs to be set:
 
 .. code-block:: 
 
-    export PYTHONPATH=<path_to_rats>/src:$PYTHONPATH
+    export PYTHONPATH=<path_to_tada>/src:$PYTHONPATH
 
 Then the unit tests can be run using `pytest`:
 

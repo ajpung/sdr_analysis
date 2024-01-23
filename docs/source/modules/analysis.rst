@@ -1,7 +1,7 @@
 Analysis
 ========
 
-.. automodule:: rats.analysis
+.. automodule:: tada.analysis
    :members:
    :undoc-members:
    :show-inheritance:
@@ -10,7 +10,7 @@ Analysis
 Basics
 ------
 
-.. automodule:: rats.analysis.basics
+.. automodule:: tada.analysis.basics
    :members:
    :undoc-members:
    :show-inheritance:

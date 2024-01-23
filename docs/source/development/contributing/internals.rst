@@ -10,7 +10,7 @@ The repository layout is standard for a service-driven plugin.
 
 - ``README.md`` - Documentation for the TADA GitHub landing page.
 
-- ``package.json``
+- ``package.json`` - TADA package dependencies and changelog specification
 
 - ``pyproject.toml`` - Project characterization / development data
 
@@ -24,10 +24,10 @@ The repository layout is standard for a service-driven plugin.
 
   - ``tada/`` - Where the TADA code is housed.
 
-  - ``rats.egg-info``
-
 - ``tests/`` - Contains unit tests for each module
 
-  - ``analysis/`` - Unit tests for the Analysis scripts (ex. line of sight, etc.)
+  - ``hw_tests/`` - Unit tests for hardware operation and connectivity (ex. RTL SDR dongles, etc.)
+  
+  - ``sw_tests/`` - Unit tests for software scripts (ex. analysis, data cleaning, etc.)
 
   - ``utils/`` - Unit tests for the utility codes (ex. conversions, etc.)

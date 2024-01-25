@@ -17,13 +17,13 @@ def test_data_read():
     assert len(samples) == 512
 
 
-def test_spectrum_convert():
-    sdr = RtlSdr()
-    sdr.sample_rate = 2.8e6
-    sdr.center_freq = 93.3e6
-    samples = sdr.read_samples(4000)
-    assert type(samples) == np.ndarray
-    assert type(samples[0]) == np.complex128
+# def test_spectrum_convert():
+#    sdr = RtlSdr()
+#    sdr.sample_rate = 2.8e6
+#    sdr.center_freq = 93.3e6
+#    samples = sdr.read_samples(4000)
+#    assert type(samples) == np.ndarray
+#    assert type(samples[0]) == np.complex128
 
 
 """

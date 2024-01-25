@@ -17,7 +17,7 @@ def test_data_read():
     assert len(samples) == 512
 
 
-#def test_spectrum_convert():
+# def test_spectrum_convert():
 #    sdr = RtlSdr()
 #    sdr.sample_rate = 2.8e6
 #    sdr.center_freq = 93.3e6

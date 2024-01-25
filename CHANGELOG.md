@@ -2,6 +2,35 @@
 
 
 
+## 1.3.0 (2024-01-25)
+
+### Chore
+
+* chore: fixing file format for PR ([`cbc5e8c`](https://github.com/ajpung/sdr_analysis/commit/cbc5e8c0addc159915490535b3eca9b45e8f18e8))
+
+* chore: adding sample data for future test development ([`76f5ff7`](https://github.com/ajpung/sdr_analysis/commit/76f5ff7658926ff25f9a10e757c535a8a176eb3d))
+
+* chore: cleaning out files and updating online documentation ([`263123d`](https://github.com/ajpung/sdr_analysis/commit/263123def2aa2d837beb9e3317b11ebd63eecae9))
+
+### Feature
+
+* feat: added ability to read files with complex values as exported from rtl ([`d9ec40a`](https://github.com/ajpung/sdr_analysis/commit/d9ec40a10f96c3b898bd8354bf0368b21b1eaf8b))
+
+### Unknown
+
+* Merge pull request #16 from ajpung/test-file-read
+
+Test file read ([`3ce4138`](https://github.com/ajpung/sdr_analysis/commit/3ce4138afb2861011110106bce7e50670b5e2cf2))
+
+* Merge pull request #12 from ajpung/file_read
+
+chore: adding sample data for future test development ([`e7558d5`](https://github.com/ajpung/sdr_analysis/commit/e7558d5a0e5164c2a5083da53f10b2194f9fb417))
+
+* Merge pull request #11 from ajpung/clean_out
+
+chore: cleaning out files and updating online documentation ([`178b8a0`](https://github.com/ajpung/sdr_analysis/commit/178b8a03009f7b294192b858ca99723e840850a6))
+
+
 ## 1.2.0 (2024-01-22)
 
 ### Chore

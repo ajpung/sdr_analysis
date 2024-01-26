@@ -1,9 +1,9 @@
 import numpy as np
 import pandas as pd
 
-from scipy.signal import welch
-from tada.utils.filehandling import *
-from scipy.fftpack import fft, fftfreq, fftshift
+# from scipy.signal import welch
+# from tada.utils.filehandling import *
+# from scipy.fftpack import fft, fftfreq, fftshift
 
 
 def test_addition():

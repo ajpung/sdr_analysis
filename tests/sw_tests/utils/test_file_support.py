@@ -4,6 +4,19 @@ import pandas as pd
 from tada.utils.filehandling import *
 
 
+def test_file_write():
+    samples = np.random.uniform(-1, 1, 2000) + 1.0j * np.random.uniform(-1, 1, 2000)
+    sample_rate = 3.2e6
+    center_freq = 93.3e6
+    freq_correction = 10
+    write_data(sample_rate, center_freq, freq_correction, samples)
+    filedir = ".\\sample_data\\"
+    filename = "rfdata_240126"
+    filestr = filedir + filename
+    assert os.path.isfile(filestr)
+    os.remove(filestr)
+
+
 def test_file_read():
     filename = "./sample_data/sample_radio_data.csv"
     data = read_csv(filename)

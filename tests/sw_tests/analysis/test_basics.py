@@ -5,10 +5,12 @@ from scipy.signal import welch
 from tada.utils.filehandling import *
 from scipy.fftpack import fft, fftfreq, fftshift
 
+
 def test_addition():
     a = 2
     b = 4
-    assert a+b==6
+    assert a + b == 6
+
 
 """
 def test_spectrum_convert():

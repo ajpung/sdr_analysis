@@ -2,6 +2,27 @@
 
 
 
+## 1.4.0 (2024-01-26)
+
+### Chore
+
+* chore: fixing format ([`c0a7e74`](https://github.com/ajpung/sdr_analysis/commit/c0a7e742232e8ae44469fbf774fbf34fc37c349b))
+
+* chore: fixing format ([`f463358`](https://github.com/ajpung/sdr_analysis/commit/f463358ecf5467b6d9dfe639eeba86e988925c0a))
+
+* chore: added unit test to basic tests to avoid compilation errors ([`3df2322`](https://github.com/ajpung/sdr_analysis/commit/3df23222b8a363b6e16bacdab8889550cdc5a906))
+
+### Feature
+
+* feat: added ability to write out files with a header detailing data inread parameters ([`ef3f8c0`](https://github.com/ajpung/sdr_analysis/commit/ef3f8c06213588cd60cf84da7c1f6757d0285df6))
+
+### Unknown
+
+* Merge pull request #17 from ajpung/write-file
+
+feat: added ability to write out files ... ([`987e640`](https://github.com/ajpung/sdr_analysis/commit/987e6409aed7cde800367e7373b55989012af15b))
+
+
 ## 1.3.0 (2024-01-25)
 
 ### Chore

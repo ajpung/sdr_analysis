@@ -60,6 +60,13 @@ To view the documentation, direct a web browser to the documentation:
 
 Submission
 **********
+In order to make sure that the TADA source code is pulling the most recent copy
+of all the changes, re-install TADA before setting up the test environment.
+
+.. code-block:: 
+
+    python -m pip install -e .
+
 To the best of the developer's capability, each added function and method should
 be accompanied by one or more unit tests. After validating the new code's
 functionality, ensure all unit tests pass. Begin by installing the development

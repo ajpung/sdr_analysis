@@ -2,6 +2,7 @@ import numpy as np
 import pandas as pd
 
 from scipy.signal import welch
+from scipy.signal import find_peaks
 from tada.utils.filehandling import *
 from scipy.fftpack import fft, fftfreq, fftshift
 
@@ -13,9 +14,6 @@ def test_addition():
 
 
 def test_find_peaks():
-    from scipy.signal import find_peaks
-    import matplotlib.pyplot as plt
-
     sample_rate = 2.048e6  # Hz
     center_freq = 70e6  # Hz
     freq_correction = 60  # PPM

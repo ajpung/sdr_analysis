@@ -1,9 +1,9 @@
 import numpy as np
 
 from scipy.signal import welch
+from scipy.fftpack import fftshift
 from scipy.signal import find_peaks
 from tada.utils.filehandling import *
-from scipy.fftpack import fft, fftfreq, fftshift
 
 
 def test_addition():

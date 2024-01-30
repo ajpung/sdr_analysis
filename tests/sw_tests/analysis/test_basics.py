@@ -6,12 +6,6 @@ from scipy.signal import find_peaks
 from tada.utils.filehandling import *
 
 
-def test_addition():
-    a = 2
-    b = 4
-    assert a + b == 6
-
-
 def test_find_peaks():
     sample_rate = 2.048e6  # Hz
     center_freq = 70e6  # Hz

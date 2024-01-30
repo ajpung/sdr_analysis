@@ -26,5 +26,8 @@ def test_find_peaks():
     sample_freq = fftshift(sample_freq)
     power = fftshift(power) / corr
     freqs = (sample_freq + center_freq) / 1e6
-    peaks, _ = find_peaks(np.log10(power), threshold=0.005)
-    assert np.max(freqs[peaks]) == 71.021
+    avg_noise = np.average(power)
+    peaks, _ = find_peaks(power, height=20 * avg_noise, distance=50)
+    assert np.max(freqs[peaks]) == 70.576
+    assert (peaks == np.array([267, 1074, 1600])).all()
+    assert np.allclose(power[peaks], [0.00513358, 0.0047351, 0.00246171])
